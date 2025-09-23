@@ -1,2 +1,2 @@
 # tchfare-daily-reports
-Follow me throughout my journey as a python programming learner
+This repository contains my daily reports for the PyPro-SCiDaS course.

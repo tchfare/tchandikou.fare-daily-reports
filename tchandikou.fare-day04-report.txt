@@ -1,0 +1,465 @@
+    1  sudo apt-get install texlive-full
+    2  sudo apt update
+    3  sudo apt install texstudio
+    4  sudo texstudio
+    5  python --version
+    6  sudo apt update
+    7  sudo apt install python3 python3-pip
+    8  python3 --version
+    9  pip install notebook
+   10  pip3 install notebook
+   11  pip --version
+   12  sudo apt update
+   13  sudo apt install python3-pip
+   14  pip install notebook
+   15  pip install jupyterlab
+   16  udo apt-get install vlc
+   17  sudo apt-get install vlc
+   18  curl -fsS https://dl.brave.com/install.sh | sh
+   19  sudo apt install curl
+   20  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   21  sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+   22  sudo apt update
+   23  sudo apt install brave-browser
+   24  pip install numpy pandas
+   25  sudo apt update
+   26  sudo apt install python3-venv
+   27  python3 -m venv myenv
+   28  source myenv/bin/activate
+   29  pip install numpy pandas
+   30  pip install matplotlib seaborn
+   31  pip install scipy
+   32  pip install scikit-learn
+   33  pip install tensorflow
+   34  pip install ipython
+   35  sudo apt install git
+   36  pip install sqlalchemy
+   37  pip install plotly
+   38  pip install beautifulsoup4
+   39  pip install requests
+   40  pip install sqlalchemy pandas
+   41  sudo apt install git
+   42  git --version
+   43  sudo apt update
+   44  sudo apt install snapd
+   45  sudo snap install github-desktop --classic
+   46  github-desktop
+   47  sudo apt update
+   48  sudo apt install git
+   49  git --version
+   50  git clone https://github.com/username/repository.git
+   51  sudo apt update
+   52  sudo apt install okular
+   53  sudo dpkg -i ~/Downloads/master-pdf-editor*.deb
+   54  sudo apt install -f
+   55  sudo apt update
+   56  sudo apt install xournalpp
+   57  sudo apt update
+   58  sudo apt install pdfarranger
+   59  git --version
+   60  cd Desktop
+   61  git clone https://github.com/tchandikoufare-alt/MyRepo1.git
+   62  ls
+   63  cd MyRepo1/
+   64  git config user.name "fare"
+   65  git config user.email "tchandikou.fare@aims.ac.rw"
+   66  nano example.txt
+   67  git add .
+   68  git status
+   69  git commit -m "new file"
+   70  git push
+   71  exit
+   72  git config --list
+   73  git config -list
+   74  git config --ls
+   75  git config help
+   76  git config -help
+   77  git config get
+   78  git config --get
+   79  git config --global user.name "tchandikoufare-alt"
+   80  git config --global user.email "tchandikou.fare@aims.ac.rw"
+   81  git config --list
+   82  cd Desktop
+   83  ls
+   84  cd MyRepo1/
+   85  git push
+   86  git remote set-url origin https://github.com/tchandikoufare-alt/MyRepo1.git
+   87  git push
+   88  exit
+   89  [200~ sudo -H gedit /usr/share/applications/whatsapp-webapp.desktop~ sudo -H gedit /usr/share/applications/whatsapp-webapp.desktop
+   90  sudo snap install whatsapp-linux-app   
+   91  sudo apt install r-base
+   92  apt search r-cran
+   93  wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.06.1-524-amd64.deb   
+   94  sudo apt install gdebi-core   
+   95  # update indices
+   96  sudo apt update -qq
+   97  # install two helper packages we need
+   98  sudo apt install --no-install-recommends software-properties-common dirmngr
+   99  # add the signing key (by Michael Rutter) for these repos
+  100  # To verify key, run gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc 
+  101  # Fingerprint: E298A3A825C0D65DFD57CBB651716619E084DAB9
+  102  wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+  103  # add the repo from CRAN -- lsb_release adjusts to 'noble' or 'jammy' or ... as needed
+  104  sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+  105  # install R itself
+  106  sudo apt install --no-install-recommends r-base
+  107  R --version
+  108  sudo apt install ./rstudio-2023.12.1-402-amd64.deb
+  109  lsb_release -a
+  110  sudo apt install ./rstudio-2023.12.1-402-amd64.deb
+  111  rstudio
+  112  sudo apt install rstudio-2023
+  113  wget https://download1.rstudio.org/electron/jammy/amd64/rstudio-2023.12.1-402-amd64.deb
+  114  lsb_release -a
+  115  sudo apt install ./rstudio-2023.12.1-402-amd64.deb
+  116  rstudio
+  117  sudo apt install ./rstudio-2023.12.1-402-amd64.deb
+  118  sudo apt update
+  119  sudo apt install -y --no-install-recommends software-properties-common dirmngr
+  120  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
+  121  sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+  122  sudo apt update
+  123  sudo apt install r-base
+  124  update.packages(ask = FALSE, checkBuilt = TRUE)
+  125  deb https://cloud.r-project.org/bin/linux/ubuntu noble-cran40/
+  126  sudo apt-get update
+  127  sudo apt-get upgrade
+  128  sudo apt-get build-dep r-cran-foo
+  129  PYTHON
+  130  python
+  131  sudo snap install blue-recorder
+  132  sudo add-apt-repository ppa:phablet-team/tools
+  133  sudo apt-get update
+  134  sudo apt-get install android-tools-adb
+  135  sudo apt-get install android-tools-fastboot
+  136  cd ~/Desktop/XIAOMI-TOOL-MiFlash-for-Linux-by-IceMan-master/Xiaomi_MiFlash_new && ./go.sh   
+  137  exit
+  138  python
+  139  python3
+  140  jupyter notebook
+  141  sudo apt update && sudo apt upgrade -y
+  142  deb https://cloud.r-project.org/bin/linux/ubuntu noble-cran40/
+  143  sudo apt-get update
+  144  sudo apt-get install r-base
+  145  sudo apt install ./rstudio-*
+  146  jupiter
+  147  python3
+  148  jupyter notebook
+  149  sudo apt purge r-*    
+  150  sudo apt-get remove --purge r-base r-base-core r-recommended r-cran-*   
+  151  sudo apt-get autoremove   
+  152  make uninstall   
+  153  cd /etc/apt/sources.list.d
+  154  sudo rm cran.r-project.org.list   
+  155  cd /etc/apt/sources.list.d
+  156  sudo rm cran.r-project.org.list   
+  157  sudo apt -get update
+  158  sudo apt-get update
+  159  sudo apt-get install r-base
+  160  sudo apt-get install ubuntu-restricted-extras
+  161  sudo apt install <package 1> <package 2> <package 3>
+  162  sudo apt install apache2
+  163  sudo dpkg -i rstudio-*.deb
+  164  sudo apt install -f
+  165  # Install gdebi (better dependency handling)
+  166  sudo apt install gdebi-core
+  167  sudo apt install ./rstudio-*.deb   
+  168  sudo dpkg --configure -a
+  169  sudo apt install ./rstudio-*.deb   
+  170  sudo gdebi -n rstudio-*.deb  # -n flag for non-interactive
+  171  sudo apt install ./rstudio-*.deb   
+  172  # Install gdebi first
+  173  sudo apt install gdebi-core
+  174  # Install gdebi first
+  175  sudo apt install gdebi-core
+  176  # Install the .deb package with gdebi (handles dependencies better)
+  177  sudo gdebi package-name.deb
+  178  sudo apt install gdebi-core
+  179  sudo dpkg --comfigure -a
+  180  sudo dpkg --configure -a
+  181  sudo apt install gdebi-core
+  182  # Install gdebi first if not already installed
+  183  sudo apt install gdebi-core
+  184  # Install RStudio with gdebi
+  185  sudo gdebi rstudio-2023.12.1-402-amd64.deb
+  186  rstudio
+  187  CD
+  188  cd
+  189  cd fare
+  190  cd
+  191  ls
+  192  sudo apt install ./rstudio-2023.12.1-402-amd64.deb
+  193  rstudio
+  194  sudo dpkg -i rstudio-2023.12.1-402-amd64.deb
+  195  # Fix any dependencies if needed
+  196  sudo apt install -f
+  197  ok
+  198  <ok>
+  199  EULA
+  200  sudo apt update
+  201  sudo apt install r-base r-base-dev
+  202  tar -xzf rstudio-2025.09.0-387-amd64-debian.tar.gz
+  203  cd rstudio-2025.09.0-387-amd64-debian/
+  204  cd
+  205  ls
+  206  cd Download
+  207  cd /Downloads
+  208  cd Downloads
+  209  cd rstudio-2025.09.0-387-amd64-debian/
+  210  tar -xzf rstudio-2025.09.0-387-amd64-debian.tar.gz
+  211  cd rstudio-2025.09.0-387-amd64-debian/
+  212  ls
+  213  cd rstudio-2025.09.0+387/
+  214  sudo apt install libnss3 libnspr4 libgconf-2-4 libxss1 libasound2
+  215  ls
+  216  sudo apt install lib
+  217  sudo apt install rstudio
+  218  sudo apt install libnss3 libnspr4 libgconf-2-4 libxss1 libasound2
+  219  sudo dpkg -i rstudio-*.deb
+  220  sudo apt --fix-broken install
+  221  # Install gdebi which handles dependencies better
+  222  sudo apt install gdebi-core
+  223  # Install using gdebi
+  224  sudo gdebi rstudio-*.deb
+  225  which rstudio
+  226  rstudio --version
+  227  rstudio
+  228  cd
+  229  rstudio
+  230  exit
+  231  sudo apt update
+  232  sudo apt install libnss3 libnspr4 libgconf-2-4 libxss1 libasound2 libgtk-3-0 libx11-xcb1 libxcb-dri3-0 libdrm2 libgbm1 libxshmfence1
+  233  sudo apt install libssl-dev libxml2-dev libcurl4-openssl-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
+  234  # Check if R is installed
+  235  which R
+  236  R --version
+  237  # If R isn't found, install it properly
+  238  sudo apt install r-base r-base-dev
+  239  # Method 1: Use absolute path
+  240  /usr/lib/rstudio/bin/rstudio
+  241  # Method 2: Reset RStudio config (if it's a config issue)
+  242  rstudio --disable-rasterization
+  243  # Method 3: Launch with different OpenGL settings
+  244  rstudio --disable-gpu
+  245  # Check system logs
+  246  journalctl -xe | grep -i rstudio
+  247  # Check .xsession-errors
+  248  tail -f ~/.xsession-errors
+  249  # Remove current installation
+  250  sudo apt remove rstudio
+  251  sudo apt purge rstudio
+  252  # Reinstall
+  253  sudo dpkg -i rstudio-*.deb
+  254  sudo apt --fix-broken install
+  255  echo "=== R Check ==="
+  256  which R
+  257  R --version
+  258  echo ""
+  259  echo "=== Dependencies Check ==="
+  260  ldd /usr/lib/rstudio/bin/rstudio | grep "not found"
+  261  echo ""
+  262  echo "=== RStudio Installation ==="
+  263  which rstudio
+  264  ls -la /usr/lib/rstudio/bin/rstudio
+  265  rstudio --verbose
+  266  sudo apt update
+  267  sudo apt install libclang-dev libpq5 libedit2 libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libxcb-xinerama0 libxcb-randr0 libxcb-xfixes0 libxcb-shape0 libvulkan1 libgl1-mesa-glx libegl1-mesa
+  268  # Simple one-liner from Ubuntu's repository
+  269  sudo apt update && sudo apt install -y r-base r-base-core r-recommended
+  270  sudo apt update && sudo apt install -y r-base r-base-dev && R --version
+  271  R --version
+  272  # Check if RStudio command exists
+  273  which rstudio
+  274  # Check if RStudio is installed via package manager
+  275  dpkg -l | grep rstudio
+  276  # Check if RStudio binary exists
+  277  ls -la /usr/lib/rstudio/bin/rstudio
+  278  sudo apt install gdebi-core
+  279  sudo gdebi rstudio-2025.09.0-387-amd64-debian.deb
+  280  # Install common dependencies
+  281  sudo apt install libnss3 libnspr4 libgconf-2-4 libxss1 libasound2 libgtk-3-0 libx11-xcb1 libxcb-dri3-0 libdrm2 libgbm1 libxshmfence1 libgl1-mesa-glx libegl1-mesa
+  282  find ~ -name "rstudio-*.deb" -o -name "rstudio-*.tar.gz"
+  283  sudo apt install /home/fare/Downloads/rstudio-2025.09.0-387-amd64-debian.tar.gz
+  284  sudo apt install /home/fare/Downloads/rstudio-2025.09.0-387-amd64.deb
+  285  rstudio
+  286  # Update package list
+  287  sudo apt update
+  288  # Install SageMath
+  289  sudo apt install sagemath sagemath-common
+  290  # Optional: Install additional packages
+  291  sudo apt install sagemath-doc sagemath-jupyter
+  292  sudo apt install sagemath sagemath-common
+  293  sudo apt update
+  294  sudo apt install software-properties-common
+  295  sudo add-apt-repository universe
+  296  sudo apt update
+  297  sudo apt install sagemath
+  298  # Install via snap
+  299  sudo snap install sagemath
+  300  # Or for the latest version
+  301  sudo snap install sagemath --classic
+  302  # First install miniconda/anaconda or mamba
+  303  # Install miniconda
+  304  wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+  305  bash Miniconda3-latest-Linux-x86_64.sh
+  306  # Restart terminal or source your .bashrc
+  307  source ~/.bashrc
+  308  # Install sageMath
+  309  conda install -c conda-forge sagemath
+  310  # Or using mamba (faster)
+  311  conda install -c conda-forge mamba
+  312  mamba install -c conda-forge sagemath
+  313  conda install -c conda-forge mamba
+  314  mamba install -c conda-forge sagemath
+  315  conda install -c conda-forge mamba
+  316  cd
+  317  $ man git
+  318  man
+  319  git --help
+  320  clear
+  321  git --help
+  322  man --help
+  323  $man git
+  324  clear
+  325  $man git
+  326  clear
+  327  git --help
+  328  clear
+  329  man git
+  330  git --help
+  331  git config --global tchfare
+  332  git config --globl user.tchfare
+  333  git config --global user.techfare
+  334  clear
+  335  git config --global tchfare
+  336  cleat
+  337  clear
+  338  git --help
+  339  git config --global user.tchfare
+  340  clear
+  341  git config --global user.name "tchfare"
+  342  git config --global user.email "tchandikou.fare@aims.ac.rw"
+  343  get init
+  344  git init
+  345  cd 
+  346  mkdir simplestats
+  347  ls
+  348  cd simplestats/
+  349  git init
+  350  ls -A .git
+  351  cd .git
+  352  ls -A
+  353  ls -a
+  354  ls -A
+  355  nano description 
+  356  tree
+  357  sudo snap install tree  # version 2.1.3+pkg-5852
+  358  tree
+  359  nano description 
+  360  git status
+  361  tree
+  362  git status
+  363  tree
+  364  git status
+  365  cd ..
+  366  git status
+  367  touch README.md
+  368  git status
+  369  git add README.md
+  370  git status
+  371  git commit -am "This is the first commit. It adds a readme file"
+  372  git status
+  373  get diff
+  374  git diff
+  375  -- stat
+  376  git diff --stat
+  377  ls
+  378  nana README.md 
+  379  nano README.md 
+  380  git diff
+  381  git diff --stat
+  382  git diff README.md
+  383  git diff --stat
+  384  git diff HEAD
+  385  git diff HEAD -- README.md
+  386  git diff --cached
+  387  git diff
+  388  git log
+  389  nano file2
+  390  git diff README.md file2
+  391  git diff file2
+  392  git diff HEAD -- 
+  393  git diff -stat
+  394  git diff --stat
+  395  nano file2 
+  396  git diff -stat
+  397  git diff --stat
+  398  git add file2
+  399  git diff README.md file2
+  400  nano file2 
+  401  git diff file2
+  402  git diff README.md file2
+  403  git diff HEAD -- /home/fare/simplestats/
+  404  git diff HEAD -- .
+  405  git log
+  406  nano temp_notes
+  407  git status
+  408  git reset temp_notes
+  409  git status
+  410  git reset file2
+  411  git status
+  412  git add temp_notes 
+  413  git status
+  414  git reset temp_notes
+  415  git status
+  416  git checkout -- README.md
+  417  git status 
+  418  git diff
+  419  git diff README.md
+  420  git diff HEAD
+  421  git diff HEAD --
+  422  git diff HEAD -- .
+  423  git status
+  424  git add file2 
+  425  git diff HEAD
+  426  nano README.md 
+  427  git status
+  428  git checkout -- README.md
+  429  git diff 
+  430  git diff README.md
+  431  git status
+  432  nano README.md 
+  433  nano READYOU.md
+  434  git add READYOU.md 
+  435  git statut
+  436  git status
+  437  git rm READYOU.md 
+  438  git rm READYOU.md --f
+  439  git status
+  440  rm README.md 
+  441  git status
+  442  git checkout -- README.md
+  443  git status
+  444  git add README.md 
+  445  git status
+  446  git log
+  447  git revert abc456
+  448  git log
+  449  git log --pretty=oneline
+  450  $ git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --all
+  451  history
+  452  . history
+  453  history -
+  454  history -a
+  455  nano history
+  456  sudo apt update
+  457  sudo apt install master-pdf-editor-5
+  458  [200~sudo apt install master-pdf-editor-5~sudo apt install master-pdf-editor-5
+  459  sudo apt install master-pdf-editor-5
+  460  snap install master-pdf-editor-5
+  461  cd
+  462  ls
+  463  cd simplestats/
+  464  history
+  465  history > tchandikou.fare-day04-report.txt
